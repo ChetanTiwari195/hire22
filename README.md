@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hire22 - Modern Hiring Platform
+
+Hire22 is a modern hiring platform built with Next.js, focusing on connecting job seekers with employers through an intuitive and accessible interface.
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Shadcn/ui Components
+- React
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd hire22
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features and Improvements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Performance
 
-## Learn More
+- Optimized image loading using Next.js Image component
+- Webp image format for better compression
+- Lazy loading of components
+- Component-based architecture for better code splitting
 
-To learn more about Next.js, take a look at the following resources:
+### Accessibility
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Semantic HTML structure
+- ARIA labels and roles
+- Keyboard navigation support
+- High contrast ratios for better readability
+- Form validation with clear error messages
+- Dialog components with proper focus management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### SEO
 
-## Deploy on Vercel
+- Meta tags and descriptions
+- Semantic HTML structure
+- Fast loading times
+- Mobile-friendly design
+- Proper heading hierarchy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Responsive Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Mobile-first approach
+- Flexible layouts using Flexbox and Grid
+- Responsive images
+- Adaptive typography
+- Breakpoint-specific optimizations
+
+### UI/UX Improvements
+
+- Modern, clean design
+- Consistent component library using shadcn/ui
+- Interactive elements with hover states
+- Form validation feedback
+- Toast notifications for user actions
+- Smooth transitions and animations
+- FAQ section with accordion component
+
+### Security
+
+- Type-safe code with TypeScript
+- Form validation
+- Secure authentication patterns
+- Protected routes
+
+### Components
+
+- Hero Section
+- Features Section
+- How It Works Section
+- CEO Section
+- Trusted Companies Section
+- FAQ Section
+- Registration Form
+- Navigation
+- Footer
+
+## Brand Trust
+
+The platform showcases trust badges from major companies including:
+
+- Airbnb
+- Cisco
+- Oracle
+- VMware
+- Wipro
+- Gojek
+
+## Contributing
+
+Feel free to contribute to this project by creating issues or submitting pull requests.
+

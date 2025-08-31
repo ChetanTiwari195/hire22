@@ -91,7 +91,7 @@ const CEOSection = () => {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 viewport={{ once: true }}
               >
-                <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl">
                   <img
                     src="joby-us.webp"
                     alt="CEO of Hire22.ai"

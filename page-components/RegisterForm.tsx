@@ -277,10 +277,10 @@ const RegistrationForm = () => {
                       Processing...
                     </>
                   ) : (
-                    <>
-                      <Rocket className="w-5 h-5 mr-2" />
-                      Start Your AI Hiring Journey
-                    </>
+                    <div className="flex items-center justify-center gap-4 px-2">
+                      <Rocket className="hidden md:block w-5 h-5" />
+                      <span>Start Your AI Hiring Journey</span>
+                    </div>
                   )}
                 </span>
               </motion.button>
